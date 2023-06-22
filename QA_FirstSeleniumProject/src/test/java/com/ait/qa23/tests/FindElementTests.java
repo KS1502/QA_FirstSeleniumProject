@@ -50,7 +50,7 @@ public class FindElementTests {
 
         //class -> xpath
 
-
+        //class -> xpath //*[@class='value']
         //   //*[@ttr='name'] //*[@class='value']
         //driver.findElemet(By.className("header"));
         driver.findElement(By.xpath("//*[@class='header']"));
